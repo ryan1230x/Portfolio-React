@@ -1,0 +1,81 @@
+#site-hero {
+  height: 79vh;
+  position: relative;
+  background:url('https://images.pexels.com/photos/355770/pexels-photo-355770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') 50% 50% no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &::after {
+    content: '';
+    width: 100%;
+    height: 79vh;
+    background-color: rgba($color: #000000, $alpha: .2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  & h1 {
+    font-size: 3rem;
+  }
+
+  & h5 {
+    font-size: 1.5rem;
+  }
+
+  & img {
+    height:80px;
+    overflow: hidden;        
+  }
+
+}
+
+#site-hero-card {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 1;
+
+}
+
+@media (min-width:768px) {
+  #site-hero {
+    height: 100vh;
+
+    &::after {
+      content: '';
+      width: 100%;
+      height: 100vh;
+      background-color: rgba($color: #000000, $alpha: .2);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    & img {
+      height:150px;
+      overflow: hidden;        
+    }
+
+  }
+  #site-hero-card {
+    top: 50%;
+    transform: translateY(-50%);
+
+    & h1 {
+      font-size: 5rem;
+    }
+  
+    & h5 {
+      font-size: 2rem;
+    }
+
+  }
+}

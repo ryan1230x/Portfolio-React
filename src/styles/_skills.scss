@@ -1,0 +1,28 @@
+.skill-section {
+
+	& h1,
+	& h5 {
+		color:#fff !important;
+	}	
+
+}
+
+.skills-card {
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.skill-pill {
+	background-color:$color-primary-dark;
+	transition: all .2s ease-in-out;
+	
+	&.hover {
+		background-color:$color-primary-dark-hoverable;
+		transform:scale(1.1);
+	}
+
+}
+
+.skill-section {
+	background-color:darken($color:$color-primary, $amount: 30%);
+}

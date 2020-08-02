@@ -1,0 +1,27 @@
+.contact {
+  background-color: $color-primary-bg;
+
+  & h1,
+  & h4 {
+    color: #fff !important;
+  }
+
+  & form {
+
+    & label {
+      font-weight: 800;
+    }
+
+    & .form-control {
+      padding: 20px 10px;
+      background-color: $color-primary-dark-hoverable;
+      border-radius: 15px;
+      color:#fff !important;
+      font-weight: 600;      
+
+      &:focus {
+        box-shadow: inherit $color-primary-dark;
+      }
+    }
+  }
+}
