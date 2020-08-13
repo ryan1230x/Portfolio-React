@@ -1,7 +1,7 @@
 #site-hero {
   height: 79vh;
   position: relative;
-  background:url('https://images.pexels.com/photos/355770/pexels-photo-355770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') 50% 50% no-repeat;
+  background:url('../landing-bg.jpg') 50% 50% no-repeat;
   background-position: center;
   background-size: cover;
 
@@ -28,6 +28,15 @@
   & img {
     height:80px;
     overflow: hidden;        
+  }
+
+  #tsparticles {
+    position: absolute;
+    top: 55%;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:0;
   }
 
 }
@@ -62,6 +71,10 @@
     & img {
       height:150px;
       overflow: hidden;        
+    }
+
+    #tsparticles {
+      top:0
     }
 
   }

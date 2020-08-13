@@ -1,16 +1,7 @@
 import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap'
 import { Link } from 'gatsby'
-
-// About Title
-const AboutTitle = () => (
-  <div className="heading">
-    <h1 className="font-weight-bold display-1">About Me</h1>
-    <h5 className="font-weight-light">
-     Full Stack Web Developer
-    </h5>
-  </div>
-)
+import Heading from '../heading'
 
 const AboutImage = () => (
 	<div>
@@ -38,7 +29,7 @@ const About = () => (
 		<Container>
       <Row>
         <Col>
-					<AboutTitle />
+					<Heading heading="About Me" subheading="Full Stack Web Developer" />
         </Col>
       </Row>
       <Row>

@@ -13,15 +13,19 @@
     }
 
     & .form-control {
-      padding: 20px 10px;
-      background-color: $color-primary-dark-hoverable;
-      border-radius: 15px;
-      color:#fff !important;
+      padding: 20px 10px;      
+      border-radius: 15px;      
       font-weight: 600;      
+    }
+  }
+}
 
-      &:focus {
-        box-shadow: inherit $color-primary-dark;
-      }
+@media(min-width:768px) {
+  .contact {
+    form {
+      max-width: 50%;
+      margin-left:auto;
+      margin-right: auto;
     }
   }
 }

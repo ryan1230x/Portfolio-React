@@ -3,20 +3,19 @@ import { Link } from "gatsby"
 
 import { Navbar, Nav, Container } from "react-bootstrap"
 
-const CustomNavbar = () =>   
+class CustomNavbar extends React.Component {
 
-  (
-    <>
-      <Navbar expand="lg" id="site-navbar">
-        <Container>
-        <Link to="/" className="link-no-style">
-          <Navbar.Brand as="span" 
+  render() {
+    return(
+      <>
+     <Navbar expand="lg" id="site-navbar">
+       <Container>
+       <Link to="/" className="link-no-style">
+         <Navbar.Brand as="span" 
           style={{ 
             fontSize:'2.2rem',
-            fontWeight:'bold',
-            borderRight: '3px solid #FFF',
-            paddingRight: '5px',            
-            color:'#FFF'
+            fontWeight:'bold',            
+            paddingRight: '5px',                        
            }}
            >
             Ryan
@@ -36,7 +35,7 @@ const CustomNavbar = () =>
                 About
               </Nav.Link>
             </Link>
-            <Link to="/project" className="link-no-style">
+            <Link to="/projects" className="link-no-style">
               <Nav.Link as="span" eventKey="projects">
                 Projects
               </Nav.Link>
@@ -46,12 +45,13 @@ const CustomNavbar = () =>
                 Contact
               </Nav.Link>
             </Link>
-
           </Nav>          
         </Navbar.Collapse>
         </Container>
       </Navbar>
     </>
-  )
+    )
+  }
+}
 
 export default CustomNavbar

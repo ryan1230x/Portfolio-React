@@ -14,6 +14,11 @@
   border: none;
   }
 
+  .navbar-brand {
+    color: $color-primary;
+    border-right: 3px solid $color-primary;
+  }
+
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -36,7 +41,11 @@
     right: 0;
     left: 0;
     width: 100%;
-    padding-top: 3rem;
+
+    &.navbar-secondary {
+      background-color: $color-primary-bg;
+      position: static;      
+    } 
 
     & a {
       font-weight: bold;
@@ -49,6 +58,11 @@
     text-decoration: none;
     color: darken($color:#fff, $amount: 15%);
     border: none;
+    }
+
+    .navbar-brand {
+      color: #FFF;
+      border-right: 3px solid #FFF;
     }
   }
 
