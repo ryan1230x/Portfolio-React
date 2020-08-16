@@ -4,10 +4,8 @@
 
   & .gallery-item {    
 
-    $light-grey: lighten($color: $color-secondary, $amount: 50%);
-    
     & img {
-      border: 2px solid $light-grey;
+      border: 2px solid #fff;
       max-width: 100%;
       height: auto;
       border-top-left-radius: 30px;
@@ -16,7 +14,7 @@
 
     & .content-wrapper {
       position: relative;      
-      background-color:$light-grey;      
+      background-color:#fff;      
       border-bottom-right-radius: 30px;
       border-bottom-left-radius: 30px;
     }

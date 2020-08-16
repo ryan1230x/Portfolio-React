@@ -34,13 +34,11 @@ body {
 .heading {
   margin-bottom: 5rem;
   
-  & h1 {
-    font-size: 3rem;
+  & h1 {    
     color: $color-primary;
   }
 
-  & h5 {
-    font-size: 1.75rem;
+  & h5 {    
     color: $color-secondary;
   }
 
@@ -52,9 +50,8 @@ body {
 }
 
 .footer-col {
-  padding: 1.5rem;
-  background-color: $color-primary-bg;
-  color: #fff;
+  padding: 1.5rem;  
+  color: $color-primary;
   text-align: center;
 }
 
@@ -67,5 +64,18 @@ body {
   .section-padding {
     padding-top: 7rem;
 		padding-bottom:7rem;
+  }
+
+  .heading {
+    margin-bottom: 5rem;
+    
+    & h1 {      
+      color: $color-primary;
+    }
+  
+    & h5 {      
+      color: $color-secondary;
+    }
+  
   }
 }

@@ -15,7 +15,7 @@ const SkillsInformationItem = ({ skills }) => {
 
   return (
     <Col xs={6} sm={6} md={4}>
-      <div role="" className="d-flex flex-column align-items-center p-4 mb-4 text-light skill-pill"
+      <div role="" className="d-flex flex-column align-items-center p-4 mb-4 text-black skill-pill"
         style={{borderRadius:'10px'}}
         onMouseEnter={hover_handler}
         onMouseLeave={unhover_handler}

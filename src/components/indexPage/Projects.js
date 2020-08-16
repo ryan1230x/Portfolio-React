@@ -17,9 +17,9 @@ const ProjectsGalleryItem = ({ projects }) =>  {
         </div>
         <div className="content-wrapper px-3 py-4 px-lg-3 py-lg-4 mb-4 mb-md-5 mb-lg-5">
           <div>
-            <h2 className="font-weight-bold mb-3">{title}</h2>        
+            <h2 className="font-weight-bold mb-4">{title}</h2>        
           </div> 
-          <div className="gallery-about">
+          <div className="gallery-about mb-4">
             <p style={{ fontWeight:'600' }}>{about}</p>
           </div>
           <div className="gallery-actions">

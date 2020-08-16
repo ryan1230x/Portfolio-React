@@ -1,7 +1,10 @@
-$color-primary: #845EC2;
-$color-primary-bg:darken($color:$color-primary, $amount: 30%);
-$color-primary-dark:darken($color:$color-primary, $amount:25%);
-$color-primary-dark-hoverable:darken($color:$color-primary, $amount:20%);
+$color-primary: #111;
 $color-secondary:#6c757d;
+
+$bg-light-secondary-30:lighten($color:$color-secondary, $amount:30%);
+
+$bg-light:#f8f9fa;
+$bg-light-30:lighten($color:$bg-light, $amount:30%);
+
 $section-padding-ws-lg: 7rem;
 $section-padding-ws-sm: 5rem;

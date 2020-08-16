@@ -8,7 +8,7 @@ class CustomNavbar extends React.Component {
   render() {
     return(
       <>
-     <Navbar expand="lg" id="site-navbar">
+     <Navbar expand="lg" id="site-navbar" className="navbar-light bg-white">
        <Container>
        <Link to="/" className="link-no-style">
          <Navbar.Brand as="span" 

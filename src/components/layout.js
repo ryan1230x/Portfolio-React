@@ -28,7 +28,7 @@ const Layout = ({ children, pageInfo }) => (
         <Container fluid className="px-0 main">
           <Navbar pageInfo={pageInfo} />
         </Container>
-        <main>{children}</main>                            
+        <main className="bg-light">{children}</main>                            
         <Container fluid className="px-0">
           <Row noGutters>
             <Col className="footer-col">

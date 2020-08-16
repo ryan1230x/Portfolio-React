@@ -75,25 +75,25 @@ const ContactFrom = () => {
         <div id="formMessage"></div>            
         <Form.Row>
           <Col xs={12} md={6} className="mb-4">
-            <Form.Label className="text-white">Your Name</Form.Label>
+            <Form.Label>Your Name</Form.Label>
             <Form.Control name="name" onChange={(e) => setName(e.target.value)} value={name} autoComplete="name" type="text"></Form.Control>                                    
           </Col>
           <Col xs={12} md={6} className="mb-4">
-            <Form.Label className="text-white">Subject</Form.Label>
+            <Form.Label>Subject</Form.Label>
             <Form.Control name="subject" onChange={(e) => setSubject(e.target.value)} value={subject} type="text"></Form.Control>                
           </Col>
         </Form.Row>            
 
         <Form.Row className="mb-4">
           <Col xs={12} md={12}>
-            <Form.Label className="text-white">Email Address</Form.Label>
+            <Form.Label>Email Address</Form.Label>
             <Form.Control name="email" onChange={(e) => setEmail(e.target.value)} value={email} type="email" autoComplete="email"></Form.Control>                                
           </Col>
         </Form.Row>
 
         <Form.Row className="mb-4">
           <Col>
-            <Form.Label className="text-white">Message</Form.Label>
+            <Form.Label>Message</Form.Label>
             <Form.Control name="message" onChange={(e) => setMessage(e.target.value)} value={message} as="textarea" draggable="false"></Form.Control>
           </Col>
         </Form.Row>
@@ -109,7 +109,7 @@ const ContactFrom = () => {
 
 const Contact = () => {
   return (
-    <section className="section-padding contact">
+    <section className="section-padding contact bg-white">
       <Container>
         <Row>
           <Col xs={12}>

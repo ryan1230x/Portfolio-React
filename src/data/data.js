@@ -16,14 +16,14 @@ export const projects_gallery = [
     title:"Bridal By Bandice", 
     about:"Personal Website for a bridal hairdresser, made with HTML, CSS3, JavaScript, PHP and MySQL.", 
     img:"../../bridal-by-candice.png",
-    link:"/"
+    link:"/bridal-by-candice"
   },
   {
     id:2,
     title:"Helpdesk", 
     about:"A project created to be used in a company to manage internet service orders. Created with Materialize on the frontend and PHP & MySQL on the backend", 
     img:"../../Helpdesk_landing.png",
-    link:"/"
+    link:"/helpdesk"
   },
   {
     id:3,

@@ -1,6 +1,11 @@
 #site-navbar {
-  width: 100%;
-  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%; 
+  z-index: 999;
+  padding:16px !important;
 
   & a {
     font-weight: bold;
@@ -32,50 +37,4 @@
   text-decoration: none;
   font-size: 1.1rem;   
   font-weight: bold;
-}
-
-@media(min-width:768px) {
-  #site-navbar {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-
-    &.navbar-secondary {
-      background-color: $color-primary-bg;
-      position: static;      
-    } 
-
-    & a {
-      font-weight: bold;
-      color: #fff;
-      transition: color ease-in-out .4s;
-    }
-  
-    & a:hover,
-    & a:focus {
-    text-decoration: none;
-    color: darken($color:#fff, $amount: 15%);
-    border: none;
-    }
-
-    .navbar-brand {
-      color: #FFF;
-      border-right: 3px solid #FFF;
-    }
-  }
-
-  .navbar-light .navbar-nav .nav-link:hover {
-    color: darken($color: #fff, $amount: 15%);
-  }
-  
-  .navbar-light .navbar-nav .nav-link {
-    margin-left:15px;
-    margin-right: 15px;
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2rem;   
-    font-weight: bold;
-  }
 }

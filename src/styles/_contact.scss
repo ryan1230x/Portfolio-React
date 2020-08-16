@@ -1,15 +1,11 @@
 .contact {
-  background-color: $color-primary-bg;
-
-  & h1,
-  & h4 {
-    color: #fff !important;
-  }
 
   & form {
 
     & label {
+      color:#111;
       font-weight: 800;
+      color:$color-primary;
     }
 
     & .form-control {
