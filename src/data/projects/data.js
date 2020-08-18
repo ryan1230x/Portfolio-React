@@ -14,7 +14,24 @@ export const bridal_by_candice = {
 export const helpdesk = {
   title:'Helpdesk',
   introduction: 'A project created to be used in a company to manage internet service orders. Created with Materialize on the frontend and PHP & MySQL on the backend',
-  furtherDetails: [],
+  furtherDetails: [
+    {
+      content:'This is the main view of the project where you can see a table of all the pending tickets these are ordered in desending order so the most recent are displayed at the top.',
+      image:''
+    },
+    {
+      content:'Each of the ticket can be viewed individually, where all the needed information is displayed, These is also a comment section to leave important notes, when the ticket is resolved it can be closed.',
+      image:''
+    },
+    {
+      content:'Once a ticket has been closed the view changes a litle, there is a card informing that the ticket is closed and the closing comment.',
+      image:''
+    },
+    {
+      content:'There is a search bar that is optimised to work on finding addresses, the search show all open tickets and closed that match the query.',
+      image:''
+    }
+  ],
   link:'http://helpdesk.ryanwilliamharper.com'
 }
 

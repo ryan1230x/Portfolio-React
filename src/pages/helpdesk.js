@@ -1,14 +1,15 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import Base from '../components/projectsPage/base'
+import BaseExtended from '../components/projectsPage/baseExtended'
 import { helpdesk } from '../data/projects/data'
+
 
 const Helpdesk = () => {
   return (
     <Layout pageInfo={{ pageName: "Helpdesk" }} >
       <SEO title="Helpdesk" />
-      <Base data={ helpdesk }  />
+      <BaseExtended data={ helpdesk }  />
     </Layout>
   )
 }
