@@ -10,11 +10,11 @@ import Contact from "../components/indexPage/Contact"
 
 const IndexPage = () => (
   <Layout pageInfo={{ pageName: "index" }}>
-    <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />        
-    <Hero />        
+    <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />
+    <Hero />
     <About />
     <Skills />
-		<Projects />
+    <Projects />
     <Contact />
   </Layout>
 )
