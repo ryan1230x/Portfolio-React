@@ -30,21 +30,21 @@ export const projects_gallery = [
     title:"E-commerce", 
     about:"A fictional e-commerce shop made Materialize on the Frontend and PHP & MySQL on the backend.", 
     img:"../../e-commerce_landing.png",
-    link:"/"
+    link:"/e-commerce"
   },
   {
     id:4,
     title:"Makeup by Talie", 
     about:"This is a project for a client who is a Makeup Artist. This project was built using HTML, CSS3, JavaScript & PHP.", 
     img:"makeup_by_talie_landing.png",
-    link:"/"
+    link:"/makeup-by-talie"
   },
   {
     id:5,
     title:"AniList", 
     about:"Built with HTML, SCSS, Javascipt, Bootstrap, GraphQL, PHP and MySQL; this project can keep track of ongoing Anime shows", 
     img:"AniList_manga.png",
-    link:"/"
+    link:"/ani-list"
   },
 ]
 

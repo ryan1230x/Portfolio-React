@@ -44,7 +44,11 @@ const ProjectsGallery = () => (
 const Projects = () => (
   <section className="section-padding projects">
     <Container>
-      <Heading heading="My Work" subheading="Featured Projects" />
+      <Row>
+        <Col xs={12} className="heading">
+          <Heading heading="My Work" subheading="Featured Projects" />
+        </Col>
+      </Row>
       <ProjectsGallery />
     </Container>
   </section>

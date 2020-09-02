@@ -27,8 +27,6 @@
   .projects {
     & .gallery-item {
 
-      $light-grey: lighten($color: $color-secondary, $amount: 50%);
-
       & img {
         height:300px; 
         width:100%;

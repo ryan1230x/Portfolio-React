@@ -23,7 +23,7 @@ const NotFoundPage = () => (
     <section className={styles.root}>
       <h1>NOT FOUND</h1>
       <img
-        src={require(../../404.svg)}
+        src={require('../404.svg')}
         className={styles.img}
         alt="404 svg"
        />

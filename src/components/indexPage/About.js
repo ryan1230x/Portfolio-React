@@ -28,7 +28,7 @@ const About = () => (
   <div className="section-padding about-section">
 		<Container>
       <Row>
-        <Col>
+        <Col className="heading">
 					<Heading heading="About Me" subheading="Full Stack Web Developer" />
         </Col>
       </Row>

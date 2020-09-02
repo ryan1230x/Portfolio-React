@@ -76,31 +76,59 @@ const ContactFrom = () => {
         <Form.Row>
           <Col xs={12} md={6} className="mb-4">
             <Form.Label>Your Name</Form.Label>
-            <Form.Control name="name" onChange={(e) => setName(e.target.value)} value={name} autoComplete="name" type="text"></Form.Control>                                    
+            <Form.Control 
+              name="name" 
+              onChange={(e) => setName(e.target.value)} 
+              value={name} 
+              autoComplete="name" 
+              type="text"
+            ></Form.Control>                                    
           </Col>
           <Col xs={12} md={6} className="mb-4">
             <Form.Label>Subject</Form.Label>
-            <Form.Control name="subject" onChange={(e) => setSubject(e.target.value)} value={subject} type="text"></Form.Control>                
+            <Form.Control 
+              name="subject" 
+              onChange={(e) => setSubject(e.target.value)} 
+              value={subject} 
+              type="text"
+            ></Form.Control>                
           </Col>
         </Form.Row>            
 
         <Form.Row className="mb-4">
           <Col xs={12} md={12}>
             <Form.Label>Email Address</Form.Label>
-            <Form.Control name="email" onChange={(e) => setEmail(e.target.value)} value={email} type="email" autoComplete="email"></Form.Control>                                
+            <Form.Control 
+              name="email" 
+              onChange={(e) => setEmail(e.target.value)} 
+              value={email} 
+              type="email" 
+              autoComplete="email"
+            ></Form.Control>                                
           </Col>
         </Form.Row>
 
         <Form.Row className="mb-4">
           <Col>
             <Form.Label>Message</Form.Label>
-            <Form.Control name="message" onChange={(e) => setMessage(e.target.value)} value={message} as="textarea" draggable="false"></Form.Control>
+            <Form.Control 
+              name="message" 
+              onChange={(e) => setMessage(e.target.value)} 
+              value={message} 
+              as="textarea" 
+              draggable="false"
+            ></Form.Control>
           </Col>
         </Form.Row>
 
         <Form.Row className="mt-5">
           <Col>                    
-            <Button type="submit" className="btn-lg text-white btn-block">Submit</Button>
+            <Button 
+              type="submit" 
+              className="btn-lg text-white btn-block"
+            >
+              Submit
+            </Button>
           </Col>
         </Form.Row>
       </Form>
@@ -112,7 +140,7 @@ const Contact = () => {
     <section className="section-padding contact bg-white">
       <Container>
         <Row>
-          <Col xs={12}>
+          <Col xs={12} className="heading">
             <Heading heading="Contact Me" subheading="Get in touch" />
           </Col>
         </Row>

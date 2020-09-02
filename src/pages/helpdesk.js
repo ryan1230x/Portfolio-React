@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import BaseExtended from '../components/projectsPage/baseExtended'
 import { helpdesk } from '../data/projects/data'
+import Base from '../components/projectsPage/base'
 
 
 const Helpdesk = () => {

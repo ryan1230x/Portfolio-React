@@ -42,7 +42,7 @@ const Skills = () => (
 <div className="section-padding skill-section">
 	<Container>
     <Row>
-    	<Col>
+    	<Col xs={12} className="heading">
 				<Heading heading="My Skills" subheading="Technologies that I use" />
       </Col>
     </Row>
